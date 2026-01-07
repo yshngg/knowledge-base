@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "113403d715307538",
+        "id": "54827f08647616e2",
         "type": "tabs",
         "children": [
           {
-            "id": "c18215c7c0ea3e7f",
+            "id": "a7819c637a5cf6c5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "README"
             }
           }
         ]
@@ -165,6 +169,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -176,10 +181,25 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "c18215c7c0ea3e7f",
+  "active": "a7819c637a5cf6c5",
   "lastOpenFiles": [
     "KMCP Design Document.md",
+    "copilot-custom-prompts/Remove URLs.md",
+    "copilot-custom-prompts/Make longer.md",
+    "copilot-custom-prompts/Generate table of contents.md",
+    "copilot-custom-prompts/Generate glossary.md",
+    "copilot-custom-prompts/Fix grammar and spelling.md",
+    "copilot-custom-prompts/Explain like I am 5.md",
+    "copilot-custom-prompts/Emojify.md",
     "README.md",
+    "copilot-custom-prompts/Rewrite as press release.md",
+    "copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot-custom-prompts/Rewrite as tweet.md",
+    "copilot-custom-prompts/Make shorter.md",
+    "copilot-custom-prompts/Simplify.md",
+    "copilot-custom-prompts/Summarize.md",
+    "copilot-custom-prompts/Translate to Chinese.md",
+    "copilot-custom-prompts",
     "LICENSE",
     "obsidian-notebooks",
     "Excalidraw/Drawing 2025-04-28 00.52.15.excalidraw.md",
