@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "54827f08647616e2",
+        "id": "c74d080483d6f0a7",
         "type": "tabs",
         "children": [
           {
-            "id": "a7819c637a5cf6c5",
+            "id": "816d11df0e1a8731",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Texas hold 'em.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Texas hold 'em"
             }
           }
         ]
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KMCP Design Document.md",
+                "file": "Texas hold 'em.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from KMCP Design Document"
+              "title": "Outgoing links from Texas hold 'em"
             }
           },
           {
@@ -137,21 +137,7 @@
             }
           },
           {
-            "id": "7e27285cd4858fd9",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline"
-            }
-          },
-          {
-            "id": "2daaaf5d62e950ef",
+            "id": "ec322ee7fca271ba",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -159,9 +145,24 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "7e27285cd4858fd9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Texas hold 'em.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Texas hold 'em"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -181,8 +182,13 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "a7819c637a5cf6c5",
+  "active": "816d11df0e1a8731",
   "lastOpenFiles": [
+    "README.md",
+    "Texas hold 'em.md",
+    "Excalidraw/Drawing 2026-01-07 20.26.53.excalidraw.md",
+    "Excalidraw",
+    "Untitled",
     "KMCP Design Document.md",
     "copilot-custom-prompts/Remove URLs.md",
     "copilot-custom-prompts/Make longer.md",
@@ -191,7 +197,6 @@
     "copilot-custom-prompts/Fix grammar and spelling.md",
     "copilot-custom-prompts/Explain like I am 5.md",
     "copilot-custom-prompts/Emojify.md",
-    "README.md",
     "copilot-custom-prompts/Rewrite as press release.md",
     "copilot-custom-prompts/Rewrite as tweet thread.md",
     "copilot-custom-prompts/Rewrite as tweet.md",
@@ -203,7 +208,6 @@
     "LICENSE",
     "obsidian-notebooks",
     "Excalidraw/Drawing 2025-04-28 00.52.15.excalidraw.md",
-    "Excalidraw",
     "Untitled.canvas",
     "2025-04-28.md",
     "Tasks Plugin - Review and check your Statuses 2025-04-28 00-40-36.md"
