@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c74d080483d6f0a7",
+        "id": "76f4ff6c058ba823",
         "type": "tabs",
         "children": [
           {
-            "id": "816d11df0e1a8731",
+            "id": "65171eecc7904d8e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Texas hold 'em.md",
+                "file": "Linux Commands.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Texas hold 'em"
+              "title": "Linux Commands"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 353.5
   },
   "right": {
     "id": "8daff965f3721b83",
@@ -182,13 +182,17 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "816d11df0e1a8731",
+  "active": "65171eecc7904d8e",
   "lastOpenFiles": [
+    "Texas hold 'em/README.md",
+    "Texas hold 'em/Design Draft.md",
+    "Linux Commands.md",
+    "Texas hold 'em/Architecture.excalidraw.md",
+    "Texas hold 'em",
+    "Untitled",
     "README.md",
-    "Texas hold 'em.md",
     "Excalidraw/Drawing 2026-01-07 20.26.53.excalidraw.md",
     "Excalidraw",
-    "Untitled",
     "KMCP Design Document.md",
     "copilot-custom-prompts/Remove URLs.md",
     "copilot-custom-prompts/Make longer.md",
