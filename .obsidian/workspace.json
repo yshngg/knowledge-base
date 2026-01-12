@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux Commands.md",
+                "file": "Tech Words.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Linux Commands"
+              "title": "Tech Words"
             }
           }
         ]
@@ -184,12 +184,14 @@
   },
   "active": "65171eecc7904d8e",
   "lastOpenFiles": [
+    "Rust HTTP Proxy/README.md",
+    "Tech Words.md",
+    "Texas hold 'em/Architecture.excalidraw.md",
+    "Rust HTTP Proxy",
+    "Linux Commands.md",
     "Texas hold 'em/README.md",
     "Texas hold 'em/Design Draft.md",
-    "Linux Commands.md",
-    "Texas hold 'em/Architecture.excalidraw.md",
     "Texas hold 'em",
-    "Untitled",
     "README.md",
     "Excalidraw/Drawing 2026-01-07 20.26.53.excalidraw.md",
     "Excalidraw",
