@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "76f4ff6c058ba823",
+        "id": "194ff9300fa46f85",
         "type": "tabs",
         "children": [
           {
-            "id": "65171eecc7904d8e",
+            "id": "d44efa71f250a3e7",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -182,7 +178,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "65171eecc7904d8e",
+  "active": "d44efa71f250a3e7",
   "lastOpenFiles": [
     "Tech Words.md",
     "Draft.md",
