@@ -11,10 +11,14 @@
             "id": "d44efa71f250a3e7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json  (Working Tree)"
             }
           }
         ]
@@ -180,12 +184,13 @@
   },
   "active": "d44efa71f250a3e7",
   "lastOpenFiles": [
+    "Linux Commands.md",
+    "Casual Notes.md",
     "Tech Words.md",
     "Draft.md",
     "Rust HTTP Proxy/README.md",
     "Texas hold 'em/Architecture.excalidraw.md",
     "Rust HTTP Proxy",
-    "Linux Commands.md",
     "Texas hold 'em/README.md",
     "Texas hold 'em/Design Draft.md",
     "Texas hold 'em",
@@ -211,7 +216,6 @@
     "LICENSE",
     "obsidian-notebooks",
     "Excalidraw/Drawing 2025-04-28 00.52.15.excalidraw.md",
-    "Untitled.canvas",
-    "2025-04-28.md"
+    "Untitled.canvas"
   ]
 }
