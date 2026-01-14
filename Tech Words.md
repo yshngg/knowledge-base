@@ -2,3 +2,15 @@ emergence
 portfolio
 maintenance
 supersede
+conversely
+succinct
+superfluous
+massage
+porcelain
+descend
+marshal
+clutter
+sprawl
+fantastic
+delight
+arcane

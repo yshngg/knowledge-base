@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "194ff9300fa46f85",
+        "id": "bc93774dbb0e5282",
         "type": "tabs",
         "children": [
           {
-            "id": "d44efa71f250a3e7",
+            "id": "c48a768d93958728",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "Tech Words.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Tech Words"
             }
           }
         ]
@@ -182,7 +182,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "d44efa71f250a3e7",
+  "active": "c48a768d93958728",
   "lastOpenFiles": [
     "Linux Commands.md",
     "Casual Notes.md",
