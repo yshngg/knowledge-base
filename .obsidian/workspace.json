@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tech Words.md",
+                "file": "Linux Commands.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tech Words"
+              "title": "Linux Commands"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KMCP Design Document.md",
+                "file": "Tech Words.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for KMCP Design Document"
+              "title": "Backlinks for Tech Words"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Texas hold 'em.md",
+                "file": "Tech Words.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Texas hold 'em"
+              "title": "Outgoing links from Tech Words"
             }
           },
           {
@@ -137,6 +137,28 @@
             }
           },
           {
+            "id": "7e27285cd4858fd9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Linux Commands.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Linux Commands"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "9fd22c98848d49ab",
+        "type": "tabs",
+        "children": [
+          {
             "id": "ec322ee7fca271ba",
             "type": "leaf",
             "state": {
@@ -145,24 +167,8 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
-          },
-          {
-            "id": "7e27285cd4858fd9",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Texas hold 'em.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Texas hold 'em"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -184,9 +190,10 @@
   },
   "active": "c48a768d93958728",
   "lastOpenFiles": [
+    "README.md",
+    "Tech Words.md",
     "Linux Commands.md",
     "Casual Notes.md",
-    "Tech Words.md",
     "Draft.md",
     "Rust HTTP Proxy/README.md",
     "Texas hold 'em/Architecture.excalidraw.md",
@@ -194,7 +201,6 @@
     "Texas hold 'em/README.md",
     "Texas hold 'em/Design Draft.md",
     "Texas hold 'em",
-    "README.md",
     "Excalidraw/Drawing 2026-01-07 20.26.53.excalidraw.md",
     "Excalidraw",
     "KMCP Design Document.md",

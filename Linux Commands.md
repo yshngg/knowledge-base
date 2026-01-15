@@ -43,5 +43,15 @@ kubectl debug -n <namespace> <pod> -it --image=busybox:latest -- sh
 tcpdump -vv -X -i lo port 8088
 ```
 
+## tmux
+
+```
+# Config tmux default shell
+cat << EOF >> ~/.tmux.conf
+set-option -g default-shell /usr/bin/fish
+
+EOF
+```
+
 [50+ Essential Linux Commands: A Comprehensive Guide](https://www.digitalocean.com/community/tutorials/linux-commands)
 
