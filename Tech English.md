@@ -1,3 +1,4 @@
+```
 emergence
 portfolio
 maintenance
@@ -14,3 +15,8 @@ sprawl
 fantastic
 delight
 arcane
+imitate
+apparent
+criticism
+norm
+```
