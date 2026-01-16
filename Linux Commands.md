@@ -37,6 +37,14 @@ kubectl get --raw "/api/v1/nodes/<node>/proxy/<path>"
 kubectl debug -n <namespace> <pod> -it --image=busybox:latest -- sh
 ```
 
+## shell script
+
+```bash
+#!/usr/bin/env bash
+
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+```
+
 ## tcpdump
 
 ```
