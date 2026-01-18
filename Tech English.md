@@ -23,4 +23,6 @@ blunt
 patchily
 tricky
 supersede
+compound
+unary
 ```
