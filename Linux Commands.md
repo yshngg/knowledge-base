@@ -50,6 +50,7 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 ```bash
 #!/usr/bin/env bash
 
+# Set up HTTP proxy
 eval host=$(gsettings get org.gnome.system.proxy.https host)
 eval port=$(gsettings get org.gnome.system.proxy.https port)
 if [[ -n ${host} && -n port ]]; then
