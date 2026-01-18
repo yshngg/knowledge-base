@@ -60,13 +60,13 @@ fi
 
 ## tcpdump
 
-```
+```bash
 tcpdump -vv -X -i lo port 8088
 ```
 
 ## tmux
 
-```
+```bash
 # Config tmux default shell
 cat << EOF >> ~/.tmux.conf
 set-option -g default-shell /usr/bin/fish
