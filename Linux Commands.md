@@ -58,6 +58,16 @@ if [[ -n ${host} && -n port ]]; then
 fi
 ```
 
+```bash
+#!/usr/bin/env fish
+
+eval set host $(gsettings get org.gnome.system.proxy.https host)
+eval set port $(gsettings get org.gnome.system.proxy.https port)
+if [ -n $host ]; and [ -n $port ]
+    set -gx HTTPS_PROXY "http://$host:$port"
+end
+```
+
 ## tcpdump
 
 ```bash
