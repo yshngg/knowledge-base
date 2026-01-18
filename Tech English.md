@@ -19,4 +19,8 @@ imitate
 apparent
 criticism
 norm
+blunt
+patchily
+tricky
+supersede
 ```
