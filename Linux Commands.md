@@ -45,6 +45,19 @@ kubectl debug -n <namespace> <pod> -it --image=busybox:latest -- sh
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 ```
 
+### proxy
+
+```bash
+#!/usr/bin/env bash
+
+eval host=$(gsettings get org.gnome.system.proxy.https host)
+eval port=$(gsettings get org.gnome.system.proxy.https port)
+if [[ -n ${host} && -n port ]]; then
+  echo "HTTPs proxy: http://${host}:${port}"
+  export HTTPS_PROXY="http://${host}:${port}"
+fi
+```
+
 ## tcpdump
 
 ```
@@ -62,4 +75,3 @@ EOF
 ```
 
 [50+ Essential Linux Commands: A Comprehensive Guide](https://www.digitalocean.com/community/tutorials/linux-commands)
-
