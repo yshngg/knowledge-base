@@ -54,7 +54,6 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 eval host=$(gsettings get org.gnome.system.proxy.https host)
 eval port=$(gsettings get org.gnome.system.proxy.https port)
 if [[ -n ${host} && -n port ]]; then
-  echo "HTTPs proxy: http://${host}:${port}"
   export HTTPS_PROXY="http://${host}:${port}"
 fi
 ```
