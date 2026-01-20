@@ -44,6 +44,8 @@ brittle
 eliminate  
 coercion
 deliberately
+gory
+arrange
 ```
 
 
