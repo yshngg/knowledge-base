@@ -11,10 +11,14 @@
             "id": "afcf36e8961099ee",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Linux Commands.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Linux Commands"
             }
           }
         ]
@@ -138,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Linux Commands.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Linux Commands"
             }
           }
         ],
@@ -183,11 +188,11 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "ec322ee7fca271ba",
+  "active": "afcf36e8961099ee",
   "lastOpenFiles": [
+    "README.md",
     "Tech English.md",
     "Try/README.md",
-    "README.md",
     "Try",
     "Linux Commands.md",
     "Casual Notes.md",

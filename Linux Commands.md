@@ -6,11 +6,23 @@ curl -fsSL ifconfig.me
 curl -v -x https://127.0.0.1:1080 --proxy-cacert ./pki/ca.pem --proxy-http2 -I https://example.org
 ```
 
+## fzf
+
+```bash
+# Open in tmux popup if on tmux, otherwise use --height mode
+
+# ~/.bashrc
+export FZF_DEFAULT_OPTS='--height 40% --tmux bottom,40% --layout reverse --border top'
+
+# ~/.config/fish/config.fish
+set -gx FZF_DEFAULT_OPTS '--height 40% --tmux bottom,40% --layout reverse --border top'
+```
+
 ## git
 
 ```bash
 git config --local user.email yshngg@outlook.com
-git config --local user.name 'Yusheng Guo'
+git config --local user.name 'Yusheng'
 
 git config --local http.proxy <proxy>
 git config --local https.proxy <proxy>
