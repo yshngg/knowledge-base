@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "bc93774dbb0e5282",
+        "id": "1c2624652980d913",
         "type": "tabs",
         "children": [
           {
-            "id": "c48a768d93958728",
+            "id": "7b38a72222d6bbaa",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "Tech English.md",
-                "bFile": "Tech English.md",
+                "aFile": "Try/README.md",
+                "bFile": "Try/README.md",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: Tech English  (Working Tree)"
+              "title": "Diff: README  (Working Tree)"
             }
           }
         ]
@@ -187,11 +187,13 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "c48a768d93958728",
+  "active": "7b38a72222d6bbaa",
   "lastOpenFiles": [
-    "Linux Commands.md",
     "Tech English.md",
+    "Try/README.md",
     "README.md",
+    "Try",
+    "Linux Commands.md",
     "Casual Notes.md",
     "Draft.md",
     "Rust HTTP Proxy/README.md",
@@ -220,7 +222,6 @@
     "copilot-custom-prompts",
     "LICENSE",
     "obsidian-notebooks",
-    "Excalidraw/Drawing 2025-04-28 00.52.15.excalidraw.md",
     "Untitled.canvas"
   ]
 }
