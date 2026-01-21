@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1c2624652980d913",
+        "id": "a4712e0fe6f9be60",
         "type": "tabs",
         "children": [
           {
-            "id": "7b38a72222d6bbaa",
+            "id": "afcf36e8961099ee",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "Try/README.md",
-                "bFile": "Try/README.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: README  (Working Tree)"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -187,7 +183,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "7b38a72222d6bbaa",
+  "active": "ec322ee7fca271ba",
   "lastOpenFiles": [
     "Tech English.md",
     "Try/README.md",
