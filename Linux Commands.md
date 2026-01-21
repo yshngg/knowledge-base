@@ -26,6 +26,8 @@ git config --local user.name 'Yusheng'
 
 git config --local http.proxy <proxy>
 git config --local https.proxy <proxy>
+
+man gitrevisions # Specifying revisions and ranges for Git
 ```
 
 ## go
