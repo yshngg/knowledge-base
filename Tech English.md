@@ -1,4 +1,13 @@
 ```
+ubiquity
+resonate  
+traverse  
+anticipate  
+possess  
+elucidate  
+rectify  
+tackle
+keystroke
 emergence
 portfolio
 maintenance
