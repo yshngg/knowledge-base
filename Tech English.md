@@ -1,4 +1,9 @@
 ```
+trivial
+gear
+sanitize
+warp
+mosaic
 rationale
 throwaway
 interactive
