@@ -1,4 +1,5 @@
 ```
+rival
 trivial
 gear
 sanitize
