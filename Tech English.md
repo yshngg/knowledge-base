@@ -1,4 +1,10 @@
 ```
+wizard
+miscellaneous
+traverse
+incarnation
+awkward
+cable
 rival
 trivial
 gear
