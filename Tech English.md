@@ -1,4 +1,10 @@
 ```
+repurpose
+anonymous
+peripheral
+susceptible
+comparatively
+attain
 wizard
 miscellaneous
 traverse

@@ -65,19 +65,21 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 #!/usr/bin/env bash
 
 # Set up HTTP proxy
+eval mode=$(gsettings get org.gnome.system.proxy mode)
 eval host=$(gsettings get org.gnome.system.proxy.https host)
 eval port=$(gsettings get org.gnome.system.proxy.https port)
-if [[ -n ${host} && -n port ]]; then
-  export HTTPS_PROXY="http://${host}:${port}"
+if [[ $mode == 'manual' && -n $host && $port -ne 0 ]]; then
+  export HTTPS_PROXY="http://$host:$port"
 fi
 ```
 
 ```bash
 #!/usr/bin/env fish
 
+eval set mode (gsettings get org.gnome.system.proxy mode)
 eval set host (gsettings get org.gnome.system.proxy.https host)
 eval set port (gsettings get org.gnome.system.proxy.https port)
-if [ -n $host ]; and [ -n $port ]
+if [ $mode = 'manual' ]; and [ -n $host ]; and [ $port -ne 0 ]
     set -gx HTTPS_PROXY "http://$host:$port"
 end
 ```
