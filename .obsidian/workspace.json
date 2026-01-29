@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a4712e0fe6f9be60",
+        "id": "dbafa3c43a923550",
         "type": "tabs",
         "children": [
           {
-            "id": "afcf36e8961099ee",
+            "id": "c18142281f65c7d4",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Linux Commands.md",
-                "bFile": "Linux Commands.md",
-                "aRef": ""
+                "file": "Tech English.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Linux Commands  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Tech English"
             }
           }
         ]
@@ -142,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Tech English.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Tech English"
             }
           }
         ],
@@ -187,11 +188,11 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "afcf36e8961099ee",
+  "active": "c18142281f65c7d4",
   "lastOpenFiles": [
+    "README.md",
     "Linux Commands.md",
     "Tech English.md",
-    "README.md",
     "Try/README.md",
     "Try",
     "Casual Notes.md",

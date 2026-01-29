@@ -1,4 +1,7 @@
 ```
+heartfelt
+vibrant
+unveil
 repurpose
 anonymous
 peripheral
