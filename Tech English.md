@@ -1,4 +1,9 @@
 ```
+opacity
+strip
+flame
+stipulate
+magnitude
 heartfelt
 vibrant
 unveil

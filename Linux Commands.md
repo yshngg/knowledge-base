@@ -100,4 +100,13 @@ set-option -g default-shell /usr/bin/fish
 EOF
 ```
 
+## vim
+
+xref: https://stackoverflow.com/a/7078429
+
+```vim
+" Allow saving of files as sudo when I forgot to start vim using sudo.
+cmap w!! w !sudo tee > /dev/null %
+```
+
 [50+ Essential Linux Commands: A Comprehensive Guide](https://www.digitalocean.com/community/tutorials/linux-commands)
