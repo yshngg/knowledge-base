@@ -2,8 +2,11 @@
 
 ```bash
 curl -fsSL ifconfig.me
+curl -fsSL ipinfo.io/ip
 
-curl -v -x https://127.0.0.1:1080 --proxy-cacert ./pki/ca.pem --proxy-http2 -I https://example.org
+curl -x http://127.0.0.1:2080 -fsSL ipinfo.io/ip
+
+curl -x https://127.0.0.1:1080 --proxy-cacert ./pki/ca.pem -v --proxy-http2 -I https://example.org
 ```
 
 ## fzf
