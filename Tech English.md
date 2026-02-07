@@ -1,4 +1,5 @@
 ```
+brutal
 incentive
 opacity
 strip

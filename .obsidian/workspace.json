@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux Commands.md",
+                "file": "Tech English.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux Commands"
+              "title": "Tech English"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux Commands.md",
+                "file": "Tech English.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Linux Commands"
+              "title": "Outline of Tech English"
             }
           }
         ],
@@ -190,9 +190,9 @@
   },
   "active": "c18142281f65c7d4",
   "lastOpenFiles": [
+    "Linux Commands.md",
     "README.md",
     "Tech English.md",
-    "Linux Commands.md",
     "Try/README.md",
     "Try",
     "Casual Notes.md",
