@@ -1149,6 +1149,7 @@ TLD - Top-Level Domain
 RDMA - remote direct memory access
 NIC - network interface card
 GA - General Availability
+DSA - Digital Signature Algorithm
 ```
 
 ```
