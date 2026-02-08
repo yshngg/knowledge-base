@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Shortcuts/Terminal.md",
+                "file": "Tech English.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Terminal"
+              "title": "Tech English"
             }
           }
         ],
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Shortcuts/Terminal.md",
+                "file": "Tech English.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Terminal"
+              "title": "Outline of Tech English"
             }
           }
         ],
@@ -205,11 +205,11 @@
   },
   "active": "312f2787dd3ea03b",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Tech English.md",
+    "Shortcuts/Terminal.md",
     "Linux Commands.md",
     "README.md",
-    "Shortcuts/Terminal.md",
-    "Tech English.md",
-    "Untitled.md",
     "Shortcuts",
     "Try/README.md",
     "Try",
