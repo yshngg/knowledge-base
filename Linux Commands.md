@@ -87,6 +87,12 @@ if [ $mode = 'manual' ]; and [ -n $host ]; and [ $port -ne 0 ]
 end
 ```
 
+## sudo
+
+```bash
+# when you forget to use sudo with a command
+sudo !!
+```
 ## tcpdump
 
 ```bash

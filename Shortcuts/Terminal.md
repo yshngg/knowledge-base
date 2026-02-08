@@ -42,3 +42,10 @@ Pause the current process
 
 Search command history
 
+## `Alt` + `.`
+
+Give the last argument/part of the last command
+
+## `!n`
+
+Repeat the nth command from history
