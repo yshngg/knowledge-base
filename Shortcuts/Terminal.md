@@ -33,7 +33,7 @@ Stop the current process/execution
 ## `Ctrl` + `D`
 
 Logout or exit from the terminal
- 
+
 ## `Ctrl` + `Z`
 
 Pause the current process
@@ -46,6 +46,8 @@ Search command history
 
 Give the last argument/part of the last command
 
-## `!n`
+## `!n` `!-n` `!!`
 
 Repeat the nth command from history
+
+- !! repeat the last command
