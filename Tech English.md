@@ -1,4 +1,6 @@
 ```
+breach
+compromise
 brutal
 incentive
 opacity
@@ -1182,6 +1184,7 @@ incorporate ... into ...
 ```
 
 ```
+security breach
 under one's belt
 in essence
 ready-made
