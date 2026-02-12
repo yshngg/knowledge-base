@@ -1,4 +1,9 @@
 ```
+laser
+distraction
+momentary
+incredible
+triangle
 breach
 compromise
 brutal
