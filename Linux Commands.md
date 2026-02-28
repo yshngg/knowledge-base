@@ -4,7 +4,7 @@
 curl -fsSL ifconfig.me
 curl -fsSL ipinfo.io/ip
 
-curl -x http://127.0.0.1:2080 -fsSL ipinfo.io/ip
+curl -x http://127.0.0.1:1080 -fsSL ipinfo.io/ip
 
 curl -x https://127.0.0.1:1080 --proxy-cacert ./pki/ca.pem -v --proxy-http2 -I https://example.org
 ```
@@ -43,6 +43,23 @@ GODEBUG=http2debug=2,http2xconnect=1 go run .
 
 ```bash
 helm upgrade --debug -n <namespace> --create-namespace -i <release> <chart>
+```
+
+## minikube
+
+```bash
+# Cannot be local proxy, shch as 127.0.0.1 or localhost.
+# For workaround, please refer to:
+# https://github.com/kubernetes/minikube/issues/13897#issuecomment-1085988451
+export HTTPS_PROXY=http://<proxy>:1080
+
+# More information, see:
+# https://minikube.sigs.k8s.io/docs/handbook/vpn_and_proxy/
+export NO_PROXY=localhost,127.0.0.1,10.96.0.0/12,192.168.59.0/24,192.168.49.0/24,192.168.39.0/24
+
+sudo usermod -aG docker $USER && newgrp docker
+
+minikube start --driver=docker --nodes 3
 ```
 
 ## kubectl
