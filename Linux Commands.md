@@ -58,7 +58,7 @@ helm upgrade --debug -n <namespace> --create-namespace -i <release> <chart>
 ```bash
 # Cannot be local proxy, shch as 127.0.0.1 or localhost.
 # For workaround, please refer to:
-# https://github.com/kubernetes/minikube/issues/13897#issuecomment-1085988451
+# https://github.com/kubernetes/minikube/issues/13897#issuecomment-1166252008
 export HTTPS_PROXY=http://<proxy>:1080
 
 # More information, see:
