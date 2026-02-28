@@ -33,6 +33,14 @@ git config --local https.proxy <proxy>
 man gitrevisions # Specifying revisions and ranges for Git
 ```
 
+## gsetting
+
+```bash
+gsettings set org.gnome.system.proxy mode 'manual'
+gsettings set org.gnome.system.proxy.socks host 'proxy.local'
+gsettings set org.gnome.system.proxy.socks port 1080
+gsettings set org.gnome.system.proxy ignore-hosts '["localhost", "127.0.0.0/8", "::1"]'
+```
 ## go
 
 ```bash
