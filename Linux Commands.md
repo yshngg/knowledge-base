@@ -79,10 +79,12 @@ minikube start --driver=docker --nodes 3
 
 ```bash
 #!/usr/bin/env fish
-export HTTPS_PROXY=https://(hostname --all-ip-addresses | cut --delimiter ' ' --fields 1):1080
+set -gx HTTPS_PROXY https://(hostname --all-ip-addresses | cut --delimiter ' ' --fields 1):1080
+set -gx NO_PROXY localhost,127.0.0.1,10.96.0.0/12,192.168.59.0/24,192.168.49.0/24,192.168.39.0/24
 
 #!/usr/bin/env bash
 export HTTPS_PROXY="https://$(hostname --all-ip-addresses | cut --delimiter ' ' --fields 1):1080"
+export NO_PROXY=localhost,127.0.0.1,10.96.0.0/12,192.168.59.0/24,192.168.49.0/24,192.168.39.0/24
 ```
 ## kubectl
 
