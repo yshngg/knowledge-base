@@ -138,13 +138,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "copilot-custom-prompts/Explain like I am 5.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Explain like I am 5"
+              "title": "Outline"
             }
           }
         ],
@@ -182,8 +181,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "149007ab4ac622bd",
+  "active": "ec322ee7fca271ba",
   "lastOpenFiles": [
+    "copilot-custom-prompts/Explain like I am 5.md",
     "copilot-custom-prompts/Emojify.md",
     "Rust HTTP Proxy/README.md",
     "Shortcuts/Terminal.md",
@@ -209,7 +209,6 @@
     "copilot-custom-prompts/Generate table of contents.md",
     "copilot-custom-prompts/Generate glossary.md",
     "copilot-custom-prompts/Fix grammar and spelling.md",
-    "copilot-custom-prompts/Explain like I am 5.md",
     "copilot-custom-prompts/Rewrite as press release.md",
     "copilot-custom-prompts/Rewrite as tweet thread.md",
     "copilot-custom-prompts/Rewrite as tweet.md",
