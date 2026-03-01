@@ -12,7 +12,7 @@ curl -x https://127.0.0.1:1080 --proxy-cacert ./pki/ca.pem -v --proxy-http2 -I h
 ## fzf
 
 ```bash
-# Open in tmux popup if on tmux, otherwise use --height mode
+# open in tmux popup if on tmux, otherwise use --height mode
 
 # ~/.bashrc
 export FZF_DEFAULT_OPTS='--height 40% --tmux bottom,40% --layout reverse --border top'
@@ -30,7 +30,7 @@ git config --local user.name 'Yusheng'
 git config --local http.proxy <proxy>
 git config --local https.proxy <proxy>
 
-man gitrevisions # Specifying revisions and ranges for Git
+man gitrevisions # specify revisions and ranges for Git
 ```
 
 ## gsetting
@@ -53,11 +53,18 @@ GODEBUG=http2debug=2,http2xconnect=1 go run .
 helm upgrade --debug -n <namespace> --create-namespace -i <release> <chart>
 ```
 
+## hostname
+
+```bash
+# primary IP address of the local machine
+hostname --all-ip-addresses | cut --delimiter ' ' --fields 1
+```
+
 ## minikube
 
 ```bash
-# Cannot be local proxy, shch as 127.0.0.1 or localhost.
-# For workaround, please refer to:
+# cannot be local proxy, shch as 127.0.0.1 or localhost
+# for workaround, please refer to:
 # https://github.com/kubernetes/minikube/issues/13897#issuecomment-1166252008
 export HTTPS_PROXY=http://<proxy>:1080
 
