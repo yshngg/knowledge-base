@@ -79,6 +79,15 @@ kubectl get --raw "/api/v1/nodes/<node>/proxy/<path>"
 kubectl debug -n <namespace> <pod> -it --image=busybox:latest -- sh
 ```
 
+## kubectl-ai
+
+```bash
+# deepseek https://api-docs.deepseek.com/
+
+export OPENAI_API_KEY=<key>
+export OPENAI_ENDPOINT=https://api.deepseek.com/v1
+kubectl-ai --llm-provider=openai --model=deepseek-chat # or deepseek-reasoner
+```
 ## shell script
 
 ```bash
