@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0732e3b3211d86f9",
+        "id": "57141e4abb951f66",
         "type": "tabs",
         "children": [
           {
-            "id": "5b29dd9118cd98b9",
+            "id": "4e3424e99335eae5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Tech English.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Tech English"
             }
           }
         ]
@@ -138,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Tech English.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Tech English"
             }
           }
         ],
@@ -181,8 +186,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ec322ee7fca271ba",
+  "active": "4e3424e99335eae5",
   "lastOpenFiles": [
+    "Linux Commands.md",
+    "README.md",
+    "Tech English.md",
+    "Try/README.md",
     "copilot-custom-prompts/Explain like I am 5.md",
     "copilot-custom-prompts/Emojify.md",
     "Rust HTTP Proxy/README.md",
@@ -190,13 +199,9 @@
     "Texas hold 'em/Design Draft.md",
     "Texas hold 'em/Architecture.excalidraw.md",
     "Texas hold 'em/README.md",
-    "Tech English.md",
-    "Linux Commands.md",
-    "README.md",
     "Casual Notes.md",
     "Untitled.md",
     "Shortcuts",
-    "Try/README.md",
     "Try",
     "Draft.md",
     "Rust HTTP Proxy",
