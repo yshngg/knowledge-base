@@ -66,7 +66,7 @@ hostname --all-ip-addresses | cut --delimiter ' ' --fields 1
 # cannot be local proxy, shch as 127.0.0.1 or localhost
 # for workaround, please refer to:
 # https://github.com/kubernetes/minikube/issues/13897#issuecomment-1166252008
-export HTTPS_PROXY=http://<proxy>:1080
+export HTTPS_PROXY=http://$IP:$PORT
 
 # More information, see:
 # https://minikube.sigs.k8s.io/docs/handbook/vpn_and_proxy/
@@ -77,6 +77,13 @@ sudo usermod -aG docker $USER && newgrp docker
 minikube start --driver=docker --nodes 3
 ```
 
+```bash
+#!/usr/bin/env fish
+export HTTPS_PROXY=https://(hostname --all-ip-addresses | cut --delimiter ' ' --fields 1):1080
+
+#!/usr/bin/env bash
+export HTTPS_PROXY="https://$(hostname --all-ip-addresses | cut --delimiter ' ' --fields 1):1080"
+```
 ## kubectl
 
 ```bash
