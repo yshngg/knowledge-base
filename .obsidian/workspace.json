@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "dd53ebe113324dc8",
+        "id": "0732e3b3211d86f9",
         "type": "tabs",
         "children": [
           {
-            "id": "6d826f2f23400472",
+            "id": "5b29dd9118cd98b9",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Tech English.md",
-                "bFile": "Tech English.md",
-                "aRef": ""
+                "file": "copilot-custom-prompts/Explain like I am 5.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Tech English  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Explain like I am 5"
             }
           }
         ]
@@ -142,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "copilot-custom-prompts/Explain like I am 5.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Explain like I am 5"
             }
           }
         ],
@@ -185,23 +186,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6d826f2f23400472",
+  "active": "5b29dd9118cd98b9",
   "lastOpenFiles": [
+    "copilot-custom-prompts/Emojify.md",
+    "Rust HTTP Proxy/README.md",
+    "Shortcuts/Terminal.md",
+    "Texas hold 'em/Design Draft.md",
+    "Texas hold 'em/Architecture.excalidraw.md",
+    "Texas hold 'em/README.md",
     "Tech English.md",
     "Linux Commands.md",
     "README.md",
     "Casual Notes.md",
-    "Shortcuts/Terminal.md",
     "Untitled.md",
     "Shortcuts",
     "Try/README.md",
     "Try",
     "Draft.md",
-    "Rust HTTP Proxy/README.md",
-    "Texas hold 'em/Architecture.excalidraw.md",
     "Rust HTTP Proxy",
-    "Texas hold 'em/README.md",
-    "Texas hold 'em/Design Draft.md",
     "Texas hold 'em",
     "Excalidraw/Drawing 2026-01-07 20.26.53.excalidraw.md",
     "Excalidraw",
@@ -212,7 +214,6 @@
     "copilot-custom-prompts/Generate glossary.md",
     "copilot-custom-prompts/Fix grammar and spelling.md",
     "copilot-custom-prompts/Explain like I am 5.md",
-    "copilot-custom-prompts/Emojify.md",
     "copilot-custom-prompts/Rewrite as press release.md",
     "copilot-custom-prompts/Rewrite as tweet thread.md",
     "copilot-custom-prompts/Rewrite as tweet.md",
