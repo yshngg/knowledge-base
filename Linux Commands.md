@@ -7,6 +7,9 @@ curl -fsSL ipinfo.io/ip
 curl -x http://127.0.0.1:1080 -fsSL ipinfo.io/ip
 
 curl -x https://127.0.0.1:1080 --proxy-cacert ./pki/ca.pem -v --proxy-http2 -I https://example.org
+
+# download a file
+curl -O https://example.com/filename
 ```
 
 ## fzf
@@ -135,6 +138,12 @@ eval set port (gsettings get org.gnome.system.proxy.https port)
 if [ $mode = 'manual' ]; and [ -n $host ]; and [ $port -ne 0 ]
     set -gx HTTPS_PROXY "http://$host:$port"
 end
+```
+
+## ssh
+
+```bash
+ssh -i ".pem" -L <port>:127.0.0.1:<port> -N root@<address>
 ```
 
 ## sudo
