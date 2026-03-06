@@ -107,13 +107,6 @@ export OPENAI_API_KEY=<key>
 export OPENAI_ENDPOINT=https://api.deepseek.com/v1
 kubectl-ai --llm-provider=openai --model=deepseek-chat # or deepseek-reasoner
 ```
-## shell script
-
-```bash
-#!/usr/bin/env bash
-
-SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
-```
 
 ### proxy
 
@@ -138,6 +131,14 @@ eval set port (gsettings get org.gnome.system.proxy.https port)
 if [ $mode = 'manual' ]; and [ -n $host ]; and [ $port -ne 0 ]
     set -gx HTTPS_PROXY "http://$host:$port"
 end
+```
+
+## shell script
+
+```bash
+#!/usr/bin/env bash
+
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 ```
 
 ## ssh
