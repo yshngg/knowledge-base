@@ -1,4 +1,5 @@
 ```
+granular
 flatten
 resemble
 superficial
