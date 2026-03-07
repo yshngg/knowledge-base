@@ -815,7 +815,6 @@ pragmatic
 criterion
 disruption
 unfamiliar
-ephemeral
 durable
 fungible
 consolidate
