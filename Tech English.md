@@ -1,4 +1,5 @@
 ```
+permanently
 routinely
 upscale
 glossary
