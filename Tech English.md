@@ -1,4 +1,6 @@
 ```
+routinely
+upscale
 glossary
 granular
 flatten
