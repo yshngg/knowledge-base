@@ -1,4 +1,6 @@
 ```
+sniff
+analogue
 seatbelt  
 greedy
 feasible  
