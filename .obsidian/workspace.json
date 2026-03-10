@@ -11,14 +11,14 @@
             "id": "cb6e0a98eef2abd9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Tech English.md",
-                "mode": "source",
-                "source": false
+                "aFile": "Tech English.md",
+                "bFile": "Tech English.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Tech English"
+              "icon": "diff",
+              "title": "Diff: Tech English  (Working Tree)"
             }
           }
         ]
@@ -142,13 +142,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tech English.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Tech English"
+              "title": "Outline"
             }
           }
         ],
