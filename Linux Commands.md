@@ -56,6 +56,12 @@ GODEBUG=http2debug=2,http2xconnect=1 go run .
 helm upgrade --debug -n <namespace> --create-namespace -i <release> <chart>
 ```
 
+## install
+
+```
+sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+```
+
 ## hostname
 
 ```bash
