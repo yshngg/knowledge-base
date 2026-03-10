@@ -1,4 +1,12 @@
 ```
+seatbelt  
+greedy
+feasible  
+portfolio  
+myriad  
+brevity  
+censorship  
+tissue
 obfuscate
 permanently
 routinely
@@ -1169,6 +1177,7 @@ DSA - Digital Signature Algorithm
 ```
 
 ```
+in lieu of ...
 head over to ...
 on behalf of ...
 in contrast [to ...]
@@ -1198,6 +1207,7 @@ incorporate ... into ...
 ```
 
 ```
+only for reference
 security breach
 under one's belt
 in essence
