@@ -1,4 +1,7 @@
 ```
+cogent
+intermediary
+circumvent
 pile
 pointless
 triage
