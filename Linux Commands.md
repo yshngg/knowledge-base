@@ -62,6 +62,10 @@ helm upgrade --debug -n <namespace> --create-namespace -i <release> <chart>
 sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 ```
 
+## ip
+
+https://www.cyberciti.biz/faq/linux-ip-command-examples-usage-syntax/
+
 ## hostname
 
 ```bash

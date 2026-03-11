@@ -1,4 +1,14 @@
 ```
+hostile
+censorship
+steal
+mandatory
+detour
+phishing
+comply
+rogue
+malware
+subvert
 sniff
 analogue
 seatbelt  
