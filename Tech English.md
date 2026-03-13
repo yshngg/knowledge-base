@@ -1,4 +1,12 @@
 ```
+qverbatim  
+vanish  
+incidentally  
+oblivious  
+fearlessly  
+terrible  
+inventory
+negotiate
 cogent
 intermediary
 circumvent
