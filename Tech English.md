@@ -1,4 +1,10 @@
 ```
+ignition
+lid
+byproduct
+diamond
+atomic
+halt
 qverbatim  
 vanish  
 incidentally  
