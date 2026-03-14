@@ -70,6 +70,12 @@ GODEBUG=http2debug=2,http2xconnect=1 go run .
 helm upgrade --debug -n <namespace> --create-namespace -i <release> <chart>
 ```
 
+## journalctl
+
+```bash
+journalctl -f -o cat -u systemd-logind.service
+```
+
 ## install
 
 ```
