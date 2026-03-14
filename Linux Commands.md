@@ -26,8 +26,6 @@ sudo systemctl reboot
 
 xref: https://techoverflow.net/2021/05/15/how-to-install-docker-compose-on-fedora-coreos/
 
-
-
 ## fzf
 
 ```bash
