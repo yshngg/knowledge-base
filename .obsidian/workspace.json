@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tech English.md",
+                "file": "Linux Commands.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tech English"
+              "title": "Linux Commands"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tech English.md",
+                "file": "Linux Commands.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Tech English"
+              "title": "Outline of Linux Commands"
             }
           }
         ],
@@ -188,8 +188,8 @@
   },
   "active": "cb6e0a98eef2abd9",
   "lastOpenFiles": [
-    "Linux Commands.md",
     "Tech English.md",
+    "Linux Commands.md",
     "README.md",
     "Try/README.md",
     "copilot-custom-prompts/Explain like I am 5.md",

@@ -12,6 +12,22 @@ curl -x https://127.0.0.1:1080 --proxy-cacert ./pki/ca.pem -v --proxy-http2 -I h
 curl -O https://example.com/filename
 ```
 
+## docker
+
+#### How to install docker-compose on Fedora CoreOS?
+
+```bash
+# Just install it using `rpm-ostree`
+sudo rpm-ostree install docker-compose
+
+# and then reboot in order for the changes to the OSTree to take effect
+sudo systemctl reboot
+```
+
+xref: https://techoverflow.net/2021/05/15/how-to-install-docker-compose-on-fedora-coreos/
+
+
+
 ## fzf
 
 ```bash
