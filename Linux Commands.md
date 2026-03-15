@@ -184,6 +184,27 @@ ssh -i ".pem" -L <port>:127.0.0.1:<port> -N root@<address>
 sudo !!
 ```
 
+####  "Command Not Found" When Using Sudo
+
+Example:
+
+```bash
+$ tun2proxy-bin --setup --proxy "socks5://192.168.0.108:1080"
+[2026-03-15T12:07:52Z ERROR tun2proxy_bin] main loop error: Operation not permitted (os error 1)
+[2026-03-15T12:07:52Z INFO  tun2proxy_bin] Runtime.block_on exiting...
+[2026-03-15T12:07:52Z INFO  tun2proxy_bin] Starting 2s exit timer
+Error: Os { code: 1, kind: PermissionDenied, message: "Operation not permitted" }
+
+$ sudo tun2proxy-bin --setup --proxy "socks5://192.168.0.108:1080"
+sudo: tun2proxy-bin: command not found
+```
+
+```bash
+sudo -E env "PATH=$PATH" <command> [arguments]
+```
+
+xref: https://stackoverflow.com/a/29400598
+
 ## tcpdump
 
 ```bash
