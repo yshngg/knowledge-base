@@ -1,4 +1,10 @@
 ```
+crunchy  
+chewy  
+infiltrate  
+head office  
+branch offices  
+warp
 tight
 enrol
 workforce
