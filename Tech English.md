@@ -1,4 +1,7 @@
 ```
+sake
+resemble
+prominent
 crunchy  
 chewy  
 infiltrate  
