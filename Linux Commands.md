@@ -58,6 +58,7 @@ gsettings set org.gnome.system.proxy.socks host 'proxy.local'
 gsettings set org.gnome.system.proxy.socks port 1080
 gsettings set org.gnome.system.proxy ignore-hosts '["localhost", "127.0.0.0/8", "::1"]'
 ```
+
 ## go
 
 ```bash
@@ -119,6 +120,7 @@ set -gx NO_PROXY localhost,127.0.0.1,10.96.0.0/12,192.168.59.0/24,192.168.49.0/2
 export HTTPS_PROXY="https://$(hostname --all-ip-addresses | cut --delimiter ' ' --fields 1):1080"
 export NO_PROXY=localhost,127.0.0.1,10.96.0.0/12,192.168.59.0/24,192.168.49.0/24,192.168.39.0/24
 ```
+
 ## kubectl
 
 ```bash
@@ -184,7 +186,7 @@ ssh -i ".pem" -L <port>:127.0.0.1:<port> -N root@<address>
 sudo !!
 ```
 
-####  "Command Not Found" When Using Sudo
+#### "Command Not Found" When Using Sudo
 
 Example:
 

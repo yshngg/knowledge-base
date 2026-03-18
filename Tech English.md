@@ -5,11 +5,11 @@ conjunction
 sake
 resemble
 prominent
-crunchy  
-chewy  
-infiltrate  
-head office  
-branch offices  
+crunchy
+chewy
+infiltrate
+head office
+branch offices
 warp
 tight
 enrol
@@ -21,12 +21,12 @@ byproduct
 diamond
 atomic
 halt
-qverbatim  
-vanish  
-incidentally  
-oblivious  
-fearlessly  
-terrible  
+qverbatim
+vanish
+incidentally
+oblivious
+fearlessly
+terrible
 inventory
 negotiate
 cogent
@@ -47,13 +47,13 @@ malware
 subvert
 sniff
 analogue
-seatbelt  
+seatbelt
 greedy
-feasible  
-portfolio  
-myriad  
-brevity  
-censorship  
+feasible
+portfolio
+myriad
+brevity
+censorship
 tissue
 obfuscate
 permanently
@@ -129,12 +129,12 @@ discriminate
 granularity
 defunct
 ubiquity
-resonate  
-traverse  
-anticipate  
-possess  
-elucidate  
-rectify  
+resonate
+traverse
+anticipate
+possess
+elucidate
+rectify
 tackle
 keystroke
 emergence
