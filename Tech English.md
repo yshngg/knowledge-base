@@ -1,4 +1,7 @@
 ```
+portfolio
+relinquish
+conjunction
 sake
 resemble
 prominent
