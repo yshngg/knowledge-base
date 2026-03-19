@@ -1,4 +1,7 @@
 ```
+versatile
+ridiculous
+decent
 portfolio
 relinquish
 conjunction
