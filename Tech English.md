@@ -1,4 +1,16 @@
 ```
+insanely  
+integral  
+diverse  
+renowned  
+favored  
+akin  
+interpolate  
+abide  
+optimal  
+feasible  
+rugged  
+plop
 immune
 versatile
 ridiculous
