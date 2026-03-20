@@ -128,6 +128,8 @@ kubectl get --raw "/api/v1/namespaces/<namespace>/services/<service>/proxy/<path
 kubectl get --raw "/api/v1/nodes/<node>/proxy/<path>"
 
 kubectl debug -n <namespace> <pod> -it --image=busybox:latest -- sh
+
+kubectl api-resources --verbs=list --namespaced -o name | xargs -n 1 kubectl get --show-kind --ignore-not-found -n $NAMESPACE
 ```
 
 ## kubectl-ai
