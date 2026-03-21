@@ -1,4 +1,10 @@
 ```
+malicious
+tedious
+infancy
+mandatory
+nevertheless
+stationary
 insanely  
 integral  
 diverse  
