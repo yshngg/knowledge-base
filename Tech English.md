@@ -1,4 +1,6 @@
 ```
+bounce
+confine
 malicious
 tedious
 infancy
