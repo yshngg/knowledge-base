@@ -1,4 +1,39 @@
 ```
+imitate
+praise
+gauge
+assess
+withdrawn
+buggy
+downtime
+diagnostic
+introspection
+redact
+confidential
+lean
+petition
+nominate
+mascot
+exhibit
+vanish
+ramification
+poke
+ergonomic
+accustom
+nerd
+consensus
+dominate
+maxim
+brute
+harness
+mantissa
+idiom
+disposable
+rollup
+joint
+agility
+dominance
+ubiquitous
 bounce
 confine
 malicious
@@ -1250,6 +1285,7 @@ RDMA - remote direct memory access
 NIC - network interface card
 GA - General Availability
 DSA - Digital Signature Algorithm
+OTOH - on the other hand
 ```
 
 ```
@@ -1274,6 +1310,7 @@ refrain from ...
 ought to
 incorporate something into something
 boil (something) down
+dispose of
 ```
 
 ```
