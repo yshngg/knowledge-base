@@ -1,4 +1,5 @@
 ```
+preliminary
 disclose
 devote
 snappy
