@@ -1,4 +1,11 @@
 ```
+devote
+snappy
+bloat
+resist
+temptation
+cram
+bullet
 imitate
 praise
 gauge
