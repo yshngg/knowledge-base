@@ -1,4 +1,6 @@
 ```
+upfront
+abuse
 preliminary
 disclose
 devote
