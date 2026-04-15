@@ -130,6 +130,12 @@ kubectl get --raw "/api/v1/nodes/<node>/proxy/<path>"
 kubectl debug -n <namespace> <pod> -it --image=busybox:latest -- sh
 
 kubectl api-resources --verbs=list --namespaced -o name | xargs -n 1 kubectl get --show-kind --ignore-not-found -n $NAMESPACE
+
+# kubectl top pods filter by the node
+# https://github.com/kubernetes/kubernetes/issues/131896
+kubectl get pods --field-selector spec.nodeName='<name>' -A -o custom-columns=NAMESPACE:.metadata.namespace,NAME:.metadata.name --no-headers | \
+    xargs -I {} sh -c "kubectl top pod --no-headers -n {}" | \
+    column -t
 ```
 
 ## kubectl-ai
