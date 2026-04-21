@@ -1,4 +1,32 @@
 ```
+clobber
+verbatim
+conspicuous
+equation
+mindset
+hurdle
+IMO
+hassle
+né
+extraneous
+brick
+ambassador
+apex
+onward
+ubiquitous
+bar
+para
+adjacent
+unveil
+heartfelt
+collide
+competent
+warmup
+intermittent
+impostor
+impersonate
+honour
+ribbon
 enormous
 codify
 myriad
@@ -1460,4 +1488,6 @@ head over heels
 A Walking Skeleton is a tiny implementation of the system that performs a small end-to-end function. It need not use the final architecture.
 The rule of thumb is: do whatever is less awkward.
 on-premises ( aka: on-prem ) : Software is installed and run on the user's own hardware, either on-site or in a rented data center space
+
+It is never a matter of if, but when.
 ```
