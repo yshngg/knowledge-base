@@ -2,8 +2,6 @@
 
 Yusheng's personal knowledge base.
 
-
-
 ## Format
 
 ### Install prettier [^1]
@@ -34,11 +32,23 @@ echo "$FILES" | xargs git add
 exit 0
 ```
 
+Give it execute permission:
+
+```bash
+chmox +x .git/hooks/pre-commit
+```
+
 `.git/hooks/post-commit`
 
 ```sh
 #!/bin/sh
 git update-index -g
+```
+
+Give it execute permission:
+
+```bash
+chmox +x .git/hooks/post-commit
 ```
 
 Ref:
