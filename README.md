@@ -10,10 +10,6 @@ Yusheng's personal knowledge base.
 npm install --global prettier
 ```
 
-```bash
-git update-index
-```
-
 ### Pre-commit Hook [^2]
 
 `.git/hooks/pre-commit`
