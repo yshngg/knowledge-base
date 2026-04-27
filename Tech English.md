@@ -1,4 +1,29 @@
 ```
+accountable
+nudge
+tailor
+backlog
+kanban
+horrible
+nutrition
+sleeve
+crappy
+solitude
+jog
+puzzle
+ingredient
+tandem
+reassess
+recur
+ritual
+swear
+deliberately
+provisional
+gradual
+intern
+corrective
+curious
+consensus
 quirk
 transplant
 invoice
@@ -1500,6 +1525,7 @@ NIC - network interface card
 GA - General Availability
 DSA - Digital Signature Algorithm
 OTOH - on the other hand
+FWIW - for what it's worth
 ```
 
 ```
@@ -1525,6 +1551,7 @@ ought to
 incorporate something into something
 boil (something) down
 dispose of
+be bound to/for
 ```
 
 ```
