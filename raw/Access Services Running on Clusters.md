@@ -17,9 +17,9 @@ By default, the API server proxies to your service using HTTP. To use HTTPS, pre
 
 The supported formats for the `<service_name>` segment of the URL are:
 
-- `<service_name>` - proxies to the default or unnamed port using http
+- `<service_name>` - ==proxies to the default or unnamed port using http==
 - `<service_name>:<port_name>` - proxies to the specified port name or port number using http
-- `https:<service_name>:` - proxies to the default or unnamed port using https (note the trailing colon)
+- `https:<service_name>:` - ==proxies to the default or unnamed port using https (note the trailing colon)==
 - `https:<service_name>:<port_name>` - proxies to the specified port name or port number using https
 
 Examples
