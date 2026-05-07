@@ -1,4 +1,5 @@
 ```
+intimate
 chase
 coercion
 serial
