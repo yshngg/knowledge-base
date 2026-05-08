@@ -1,3 +1,14 @@
+## adb
+
+**http proxy**
+
+```bash
+adb shell settings put global http_proxy "192.168.0.108:1080"
+adb shell settings delete global http_proxy
+```
+
+Ref: https://github.com/waydroid/waydroid/issues/870
+
 ## curl
 
 ```bash
