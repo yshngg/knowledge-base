@@ -1,4 +1,9 @@
 ```
+obscure
+whiteout
+opaque
+versus
+comic
 mitigate
 intimate
 chase
