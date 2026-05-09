@@ -1,4 +1,16 @@
 ```
+stamp
+advocate
+conversely
+volatile
+intruder
+clue
+gory
+performable
+pedantic
+premature
+reiterate
+linkage
 obscure
 whiteout
 opaque
