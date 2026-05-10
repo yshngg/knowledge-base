@@ -59,6 +59,9 @@ git config --local http.proxy <proxy>
 git config --local https.proxy <proxy>
 
 man gitrevisions # specify revisions and ranges for Git
+
+# Configuring default branch name
+git config --global init.defaultBranch main
 ```
 
 ## gsetting
