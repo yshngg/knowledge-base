@@ -59,9 +59,28 @@ git config --local http.proxy <proxy>
 git config --local https.proxy <proxy>
 
 man gitrevisions # specify revisions and ranges for Git
+```
 
-# Configuring default branch name
+### Configuring default branch name
+
+```bash
 git config --global init.defaultBranch main
+```
+
+### Configuring line endings treatment
+
+#### Linux/MacOS
+
+```bash
+git config --global core.autocrlf input
+git config --global core.safecrlf warn
+```
+
+#### Windows
+
+```bash
+git config --global core.autocrlf true
+git config --global core.safecrlf warn
 ```
 
 ## gsetting
