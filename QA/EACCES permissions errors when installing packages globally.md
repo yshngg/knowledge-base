@@ -18,7 +18,6 @@ echo "$FILES" | xargs git add
 exit 0
 ```
 
-
 ```bash
 $ git commit -m "vault backup: $(date +'%F %T')"
 xargs: prettier: No such file or directory
@@ -61,11 +60,30 @@ npm error permissions of the file and its containing directories, or try running
 npm error the command again as root/Administrator.
 npm error A complete log of this run can be found in: /home/yshngg/.npm/_logs/2026-05-11T15_50_00_884Z-debug-0.log
 ```
+
 ## Answer
 
 ### Option A
 
 reinstall npm with a node version manager
+
+```bash
+# Download and install nvm:
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash
+
+# in lieu of restarting the shell
+\. "$HOME/.nvm/nvm.sh"
+
+# Download and install Node.js:
+nvm install 26
+
+# Verify the Node.js version:
+node -v
+
+# Verify npm version:
+npm -v
+```
+
 ### Option B
 
 ```bash
@@ -76,3 +94,4 @@ PATH=~/.local/bin:$PATH
 
 Ref:
 https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally
+[[How to uninstall nvm?]]
