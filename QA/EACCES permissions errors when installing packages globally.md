@@ -61,6 +61,10 @@ npm error the command again as root/Administrator.
 npm error A complete log of this run can be found in: /home/yshngg/.npm/_logs/2026-05-11T15_50_00_884Z-debug-0.log
 ```
 
+## Root Cause
+
+**Node.js** was installed using **dnf**.
+
 ## Answer
 
 ### Option A
