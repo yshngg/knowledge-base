@@ -1,4 +1,5 @@
 ```
+fidelity
 spatial
 stamp
 advocate
