@@ -15,4 +15,5 @@ git rm --cached -r content
 ```
 
 Ref:
+
 https://stackoverflow.com/a/12902857/20973039
