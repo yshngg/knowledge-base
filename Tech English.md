@@ -1,4 +1,7 @@
 ```
+foolproof
+ephemeral
+recurse
 fidelity
 spatial
 stamp
