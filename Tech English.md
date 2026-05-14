@@ -1,4 +1,10 @@
 ```
+granular
+reveal
+predict
+atop
+revamp
+venerable
 foolproof
 ephemeral
 recurse
