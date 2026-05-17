@@ -1,4 +1,6 @@
 ```
+stealth
+presumably
 granular
 reveal
 predict
