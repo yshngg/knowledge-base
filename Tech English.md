@@ -1,4 +1,16 @@
 ```
+scream
+inception
+retain
+verbatim
+w/out without
+albeit
+onward
+contradict
+starve
+lossy
+savoury
+dispose of
 neglected
 impressive
 relinquish
