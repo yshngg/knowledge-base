@@ -1,4 +1,12 @@
 ```
+inception
+fragile
+acute
+fidelity
+triage
+backlog
+hinder
+albeit
 scream
 inception
 retain
