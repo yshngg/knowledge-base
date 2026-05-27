@@ -1,4 +1,15 @@
 ```
+infancy
+constrain
+grasp
+regressive
+ceremony
+rob
+sentinel
+sever
+conservative
+tempt
+dominant
 inception
 fragile
 acute
