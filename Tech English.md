@@ -1,4 +1,14 @@
 ```
+monstrous
+outreach
+remarkably
+converse
+imperative
+proactive
+custodian
+coach
+hassle
+spectrum
 integral
 postpone
 exponentially
