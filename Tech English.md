@@ -1,4 +1,13 @@
 ```
+overrule
+distinct
+honor
+pertain
+spooky
+accelerator
+palette
+caveat
+subtle
 monstrous
 outreach
 remarkably
