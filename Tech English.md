@@ -1,4 +1,16 @@
 ```
+custody
+monopolize
+constrain
+impose
+trivial
+eviction
+destine
+regulate
+constant
+resilient
+prospective
+extensively
 overrule
 distinct
 honor
