@@ -1,4 +1,17 @@
 ```
+stanza
+disruption
+clunky
+tedious
+quorum
+derive
+rack
+defragment
+impatient
+tricky
+catch-all
+bulk
+merely
 custody
 monopolize
 constrain
