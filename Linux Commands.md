@@ -23,6 +23,12 @@ curl -x https://127.0.0.1:1080 --proxy-cacert ./pki/ca.pem -v --proxy-http2 -I h
 curl -O https://example.com/filename
 ```
 
+## dd
+
+```bash
+dd if=/dev/zero of=/dev/null
+```
+
 ## docker
 
 #### How to install docker-compose on Fedora CoreOS?

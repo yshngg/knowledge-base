@@ -1,4 +1,24 @@
 ```
+intermittently
+headroom
+rack
+homologous
+compressible
+malfunction
+outright
+regulate
+crucial
+inevitable
+landmine
+susceptible
+condemn
+surge
+sustain
+throughput
+combat
+portmanteau
+thrash
+bounce
 stanza
 disruption
 clunky
@@ -1769,6 +1789,7 @@ be bound to/for
 ```
 
 ```
+roll a dice
 only for reference
 security breach
 under one's belt
