@@ -1,4 +1,13 @@
 ```
+pesky
+absurdly
+conceal
+headroom
+penalty
+legitimately
+malicious
+sluggish
+pillar
 grill
 demystify
 resumption
