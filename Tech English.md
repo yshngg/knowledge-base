@@ -1,4 +1,16 @@
 ```
+assurance
+homogeneous
+intersection
+linger
+proactive
+veto
+compatible
+empirically
+broker
+viable
+strikethrough
+strikeout
 twiddle
 conservative
 heterogeneous
