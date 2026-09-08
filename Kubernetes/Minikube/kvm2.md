@@ -23,11 +23,24 @@ user is not a member of the appropriate libvirt group
     ▪ https://github.com/kubernetes/minikube/issues/10070
 ```
 
-```bash
-sudo usermod -aG libvirt $USER
+## add user to libvirt group
 
+```bash
+grep -E '^libvirt:' /usr/lib/group | sudo tee -a /etc/group
+sudo usermod -aG libvirt $USER
+```
+
+https://github.com/kubernetes/minikube/issues/3467#issuecomment-925480224
+
+https://docs.fedoraproject.org/en-US/atomic-desktops/troubleshooting/#_unable_to_add_user_to_group
+
+## start
+
+```bash
 minikube start --driver kvm2 --memory 6144 --network-plugin=cni --enable-default-cni --container-runtime=containerd --bootstrapper=kubeadm --nodes 3
 ```
+
+## addons
 
 ```bash
 minikube addons enable metrics-server
