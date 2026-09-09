@@ -1,3 +1,5 @@
+## install virtualization software
+
 ```bash
 rpm-ostree install virt-install libvirt-daemon-config-network libvirt-daemon-kvm qemu-kvm virt-manager virt-viewer
 
@@ -5,12 +7,14 @@ sudo systemctl start libvirtd
 sudo systemctl enable libvirtd
 ```
 
-```bash
-minikube start --driver kvm2 --memory 6144 --network-plugin=cni --enable-default-cni --container-runtime=containerd --bootstrapper=kubeadm
-```
+https://docs.fedoraproject.org/en-US/quick-docs/virtualization-getting-started/
+
+## start
+
+### add user to libvirt group
 
 ```bash
-minikube start --driver kvm2 --memory 6144 --network-plugin=cni --enable-default-cni --container-runtime=containerd --bootstrapper=kubeadm
+$ minikube start --driver kvm2 --container-runtime=containerd --nodes 3
 😄  minikube v1.38.1 on Fedora 44
 ✨  Using the kvm2 driver based on user configuration
 
@@ -23,8 +27,6 @@ user is not a member of the appropriate libvirt group
     ▪ https://github.com/kubernetes/minikube/issues/10070
 ```
 
-## add user to libvirt group
-
 ```bash
 grep -E '^libvirt:' /usr/lib/group | sudo tee -a /etc/group
 sudo usermod -aG libvirt $USER
@@ -34,19 +36,47 @@ https://github.com/kubernetes/minikube/issues/3467#issuecomment-925480224
 
 https://docs.fedoraproject.org/en-US/atomic-desktops/troubleshooting/#_unable_to_add_user_to_group
 
-## start
-
 ```bash
-minikube start --driver kvm2 --memory 6144 --network-plugin=cni --enable-default-cni --container-runtime=containerd --bootstrapper=kubeadm --nodes 3
+$ minikube start --driver kvm2 --container-runtime=containerd --nodes 3
 ```
 
 ## addons
 
-```bash
-minikube addons enable metrics-server
-minikube addons enable headlamp
+### metrics-server
 
-minikube kubectl -- create token headlamp --duration 24h -n headlamp
+```bash
+$ minikube addons enable metrics-server
+💡  metrics-server is an addon maintained by Kubernetes. For any concerns contact minikube on GitHub.
+You can view the list of minikube maintainers at: https://github.com/kubernetes/minikube/blob/master/OWNERS
+    ▪ Using image registry.k8s.io/metrics-server/metrics-server:v0.8.1
+🌟  The 'metrics-server' addon is enabled
+```
+
+```bash
+minikube kubectl top nodes
+minikube kubectl top pods -A
+```
+
+### headlamp
+
+```bash
+$ minikube addons enable headlamp
+❗  headlamp is a 3rd party addon and is not maintained or verified by minikube maintainers, enable at your own risk.
+💡  headlamp is maintained by 3rd party (kinvolk.io) for any concerns contact yolossn on GitHub.
+    ▪ Using image ghcr.io/headlamp-k8s/headlamp:v0.40.0
+💡  To access Headlamp, use the following command:
+
+	minikube service headlamp -n headlamp
+
+💡  To authenticate in Headlamp, fetch the Authentication Token using the following command:
+
+        kubectl create token headlamp --duration 24h -n headlamp
+
+💡  Headlamp can display more detailed information when metrics-server is installed. To install it, run:
+
+	minikube addons enable metrics-server
+
+🌟  The 'headlamp' addon is enabled
 ```
 
 ## Reference
