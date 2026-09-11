@@ -1,4 +1,15 @@
 ```
+flap
+flaky
+nuance
+paginator
+irreversibly
+ceiling
+parlance
+ascribe
+chomp
+humidity
+tailor
 neutral
 barely
 cumbersome
