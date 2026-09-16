@@ -1,4 +1,8 @@
 ```
+promoted
+bestow
+pertain
+poser
 flap
 flaky
 nuance
