@@ -1,4 +1,16 @@
 ```
+punchline
+mimic
+prow
+tide
+wart
+mega
+abort
+rewind
+natural
+coercion
+occasionally
+deviate
 promoted
 bestow
 pertain
