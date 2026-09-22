@@ -33,3 +33,4 @@ https://github.com/FreeRDP/FreeRDP/issues/6383
 
 https://www.freerdp.com/
 https://github.com/FreeRDP/FreeRDP
+https://flathub.org/en/apps/com.freerdp.FreeRDP
