@@ -19,6 +19,8 @@ flatpak install flathub com.freerdp.FreeRDP
 xfreerdp /v:192.168.0.108:3389 /u:yshngg /p:password
 
 flatpak run com.freerdp.FreeRDP /v:192.168.0.108:3389 /u:yshngg /p:password
+
+flatpak run com.freerdp.FreeRDP /v:192.168.0.108:3389 /u:yshngg /p:password +clipboard /f /drive:share,/home/yshngg/
 ```
 
 ## QA
@@ -32,6 +34,12 @@ yshngg@fedora:/var/home/yshngg$ xfreerdp /v:192.168.0.108:3389 /u:yshngg /p:pass
 https://gitlab.com/freedesktop-sdk/freedesktop-sdk/-/work_items/1081
 
 https://github.com/FreeRDP/FreeRDP/issues/6383
+
+### No synthesizer for format CF_RAW [0x00000000] --> CF_UNICODETEXT [0x0000000d]
+
+```bash
+[23:07:40:891] [2:00000034] [ERROR][com.winpr.clipboard] - [ClipboardGetData]: No synthesizer for format CF_RAW [0x00000000] --> CF_UNICODETEXT [0x0000000d]
+```
 
 ## Reference
 
