@@ -20,6 +20,8 @@ xfreerdp /v:192.168.0.108:3389 /u:yshngg /p:password
 
 flatpak run com.freerdp.FreeRDP /v:192.168.0.108:3389 /u:yshngg /p:password
 
+flatpak run com.freerdp.FreeRDP /v:192.168.0.108:3389 /u:yshngg /p:password +clipboard /f
+
 flatpak run com.freerdp.FreeRDP /v:192.168.0.108:3389 /u:yshngg /p:password +clipboard /f /drive:share,/home/yshngg/
 ```
 
