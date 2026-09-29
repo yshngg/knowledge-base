@@ -1,4 +1,12 @@
 ```
+outset
+provision
+negative
+unattended
+traverse
+martian
+legitimate
+cease
 rendezvous
 prow
 exemplary
