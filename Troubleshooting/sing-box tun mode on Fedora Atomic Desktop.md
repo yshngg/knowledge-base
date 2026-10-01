@@ -1,10 +1,12 @@
 ```bash
-yshngg@forge ~> sudo sing-box run -c ./config.json
+sing-box run -c ./config.json
 ```
 
+```bash
+cat ./config.json
+```
 
 ```json
-yshngg@forge ~> cat ./config.json
 {
   "log": {
     "level": "debug",
