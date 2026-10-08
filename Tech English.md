@@ -1,4 +1,9 @@
 ```
+thereafter
+residential
+confiscate
+collide
+synonym
 designate
 preclude
 intercept
