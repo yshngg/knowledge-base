@@ -1,4 +1,5 @@
 ```
+patent
 mobility
 accordance
 bulletin
