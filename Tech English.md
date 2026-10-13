@@ -1,4 +1,11 @@
 ```
+discrete
+enslave
+pinpoint
+miscreant
+elicit
+defective
+relinquish
 patent
 mobility
 accordance
