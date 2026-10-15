@@ -142,10 +142,11 @@ GODEBUG=http2debug=2,http2xconnect=1 go run .
 helm upgrade --debug -n <namespace> --create-namespace -i <release> <chart>
 ```
 
-## journalctl
+## hostname
 
 ```bash
-journalctl -f -o cat -u systemd-logind.service
+# primary IP address of the local machine
+hostname --all-ip-addresses | cut --delimiter ' ' --fields 1
 ```
 
 ## install
@@ -158,11 +159,16 @@ sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 
 https://www.cyberciti.biz/faq/linux-ip-command-examples-usage-syntax/
 
-## hostname
+## journalctl
 
 ```bash
-# primary IP address of the local machine
-hostname --all-ip-addresses | cut --delimiter ' ' --fields 1
+journalctl -f -o cat -u systemd-logind.service
+```
+
+## nc
+
+```bash
+nc -vz example.org 443
 ```
 
 ### proxy
@@ -242,6 +248,12 @@ xref: https://stackoverflow.com/a/29400598
 
 ```bash
 tcpdump -vv -X -i lo port 8088
+```
+
+## telnet
+
+```bash
+telnet example.org 80
 ```
 
 ## tmux
