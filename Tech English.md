@@ -1,4 +1,15 @@
 ```
+engage
+linger
+intersperse
+wane
+discriminate
+snoop
+rectify
+announce
+suppress
+unilaterally
+handover
 conform
 scheme
 schema
