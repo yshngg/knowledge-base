@@ -97,6 +97,10 @@ git config --global http.proxy http://127.0.0.1:1080
 git config --global https.proxy http://127.0.0.1:1080
 
 man gitrevisions # specify revisions and ranges for Git
+
+# update submodule
+git submodule update --init --recursive
+git clone --recursive
 ```
 
 ### Configuring default branch name
@@ -165,10 +169,17 @@ https://www.cyberciti.biz/faq/linux-ip-command-examples-usage-syntax/
 journalctl -f -o cat -u systemd-logind.service
 ```
 
+## loginctl
+
+```bash
+# allow users who are not logged in to run long-running services.
+loginctl enable-linger $USER
+```
+
 ## nc
 
 ```bash
-nc -vz example.org 443
+nc -vzN example.org 443
 ```
 
 ### proxy
@@ -248,6 +259,8 @@ xref: https://stackoverflow.com/a/29400598
 
 ```bash
 tcpdump -vv -X -i lo port 8088
+
+tcpdump -t -n -S 'host example.org and port 443'
 ```
 
 ## telnet
