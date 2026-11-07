@@ -207,6 +207,12 @@ if [ $mode = 'manual' ]; and [ -n $host ]; and [ $port -ne 0 ]
 end
 ```
 
+## scrcpy
+
+```bash
+scrcpy --audio-dup --audio-buffer=200 --video-buffer=200 --max-fps=120 --video-codec=h265 --video-encoder=c2.mtk.hevc.encoder --video-bit-rate=256M --record-format=mkv --record=file.mkv
+```
+
 ## shell script
 
 ```bash
