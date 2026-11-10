@@ -1,4 +1,12 @@
 ```
+intrinsic
+doable
+sophisticated
+immensely
+wobble
+eject
+attract
+repel
 oversight
 luxury
 soar
