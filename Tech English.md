@@ -1,4 +1,13 @@
 ```
+crux
+revise
+nominated
+garble
+legible
+jumble
+syllable
+beneath
+rewound
 intricate
 amplify
 commitment
