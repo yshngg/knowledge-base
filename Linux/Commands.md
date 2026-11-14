@@ -261,6 +261,14 @@ sudo -E env "PATH=$PATH" <command> [arguments]
 
 xref: https://stackoverflow.com/a/29400598
 
+## tar
+
+```bash
+tar -cavf
+
+tar -xavf
+```
+
 ## tcpdump
 
 ```bash
