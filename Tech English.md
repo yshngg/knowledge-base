@@ -1,4 +1,12 @@
 ```
+subtly
+defend
+discrete
+bisection
+canonical
+assessment
+obligatory
+tiresome
 clobber
 crux
 revise
