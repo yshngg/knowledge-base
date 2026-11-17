@@ -1,4 +1,4 @@
-## install virtualization software
+## Install Virtualization Software
 
 ```bash
 rpm-ostree install virt-install libvirt-daemon-config-network libvirt-daemon-kvm qemu-kvm virt-manager virt-viewer
@@ -9,9 +9,9 @@ sudo systemctl enable libvirtd
 
 https://docs.fedoraproject.org/en-US/quick-docs/virtualization-getting-started/
 
-## start
+## Start
 
-### add user to libvirt group
+### Add User to Libvirt Group
 
 ```bash
 $ minikube start --driver kvm2 --container-runtime=containerd --nodes 3
@@ -40,9 +40,9 @@ https://docs.fedoraproject.org/en-US/atomic-desktops/troubleshooting/#_unable_to
 $ minikube start --driver kvm2 --container-runtime=containerd --nodes 3
 ```
 
-## addons
+## Addons
 
-### metrics-server
+### Metrics-Server
 
 ```bash
 $ minikube addons enable metrics-server
@@ -57,7 +57,7 @@ minikube kubectl top nodes
 minikube kubectl top pods -A
 ```
 
-### headlamp
+### Headlamp
 
 ```bash
 $ minikube addons enable headlamp
