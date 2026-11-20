@@ -1,4 +1,4 @@
-## Backgroud
+## Background
 
 [Kubernetes v1.36: Server-Side Sharded List and Watch](https://kubernetes.io/blog/2026/05/06/kubernetes-v1-36-server-side-sharded-list-and-watch/)
 
