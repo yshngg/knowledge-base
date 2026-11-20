@@ -8,6 +8,10 @@ https://github.com/kyverno/kyverno/issues/2126
 https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#equality-based-requirement
 The latter selects all resources with key equal to tier and value distinct from frontend, and all resources with no labels with the tier key.
 
+## Website Tools:
+
 JSON Format
 PromQL Format
 Diff between files
+
+## Different between `char* str` and `char str[]` in C?
